@@ -4,11 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CORS Test</title>
+    <style>
+        /* 設定整個頁面的樣式 */
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center; /* 水平置中 */
+            align-items: center;     /* 垂直置中 */
+            font-family: Arial, sans-serif;
+        }
+
+        /* 包裹容器，讓內容上下排列 */
+        .wrapper {
+            display: flex;
+            gap: 20px;     /* 元素之間的間距 */
+        }
+
+        /* 設定內容區域的樣式 */
+        .container {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            width: 300px;
+            height: 150px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* 按鈕樣式 */
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+    </style>
 </head>
 <body>
-    <h1>CORS API 測試</h1>
-    <button onclick="fetchData()">發送請求</button>
-    <pre id="output"></pre>
+    <div class="wrapper">
+        <div class="container">
+            <h1>CORS API 測試</h1>
+            <button onclick="fetchData()">發送請求</button>
+        </div>
+
+    </div>
     <script src="app.js"></script>
 </body>
 </html>

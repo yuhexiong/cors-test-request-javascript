@@ -11,12 +11,11 @@ function fetchData() {
         }
         return response.json();
     })
-    .then(data => {
-        console.log('Success:', data);
-        document.getElementById('output').textContent = JSON.stringify(data, null, 2);
+    .then(() => {
+        alert('測試請求成功！'); 
     })
     .catch(error => {
-        console.error('Error:', error);
-        document.getElementById('output').textContent = `Error: ${error.message}`;
+        console.error('Error:', error); 
+        alert(`測試請求失敗: ${error.message}`);
     });
 }
