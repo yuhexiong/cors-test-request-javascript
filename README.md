@@ -1,5 +1,7 @@
 # Cors Test Request  
 
+**(also provided Traditional Chinese version document [README-CH.md](README-CH.md).)**
+
 A simple frontend browser for testing whether backend services have CORS enabled.  
 
 
