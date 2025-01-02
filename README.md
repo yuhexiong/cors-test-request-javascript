@@ -1,4 +1,4 @@
-# Cors Test Request  
+# CORS Test Request  
 
 **(also provided Traditional Chinese version document [README-CH.md](README-CH.md).)**
 
