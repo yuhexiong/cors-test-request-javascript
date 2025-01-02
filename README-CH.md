@@ -1,4 +1,4 @@
-# Cors Test Request
+# CORS Test Request
 
 用來測試後端服務是否開啟 CORS 的簡易前端瀏覽器。
 
